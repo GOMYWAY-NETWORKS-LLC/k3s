@@ -1,5 +1,5 @@
 # Docker image for building the Go app
-FROM golang:latest
+FROM golang:1.23rc2
 
 WORKDIR /app
 ADD . /app
